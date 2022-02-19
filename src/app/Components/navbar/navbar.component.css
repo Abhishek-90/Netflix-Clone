@@ -1,8 +1,14 @@
 .netflix-logo {
-    height: 1.8rem;
-    width: 6rem;
-    margin-left: 2.5rem;
-    margin-right: 2.2rem;
-    margin-top: 0.5rem;
+    height: 1.7rem;
+    width: 7rem;
+    margin-left: 2.7rem;
+    margin-right: 2rem;
+    margin-top: 0.6rem;
     margin-bottom: 0.5rem;
+}
+
+.search-icon {
+    color: rgb(199, 194, 194);
+    margin-right: 2rem;
+    cursor: pointer;
 }

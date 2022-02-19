@@ -11,4 +11,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showSearch() {
+    console.log("Focused")
+  }
 }
