@@ -16,8 +16,14 @@
 
 .search-section {
     margin-right: 2rem;
-    animation-duration: 2s;
+}
+
+.with-input-search {
+    border-color: rgb(253, 248, 241);
+    border-style: solid;
+    margin-right: 2rem;
     animation-name: showSearch;
+    animation-duration: 0.2s;
 }
 
 .search-input {
@@ -29,11 +35,35 @@
 }
 
 @keyframes showSearch {
-    25% {
-        width: 10rem;
+    0% {
+        width: 2rem;
     }
-    50% {
-        width: 15rem;
+    10% {
+        width: 3rem;
+    }
+    20% {
+        width: 4rem
+    }
+    30% {
+        width:5rem;
+    }
+    40% {
+        width: 6rem;
+    }
+    50%{
+        width: 7rem;
+    }
+    60% {
+        width: 8rem;
+    }
+    70% {
+        width: 9rem;
+    }
+    80% {
+        width:10rem;
+    }
+    90% {
+        width:11rem;
     }
     100% {
         width: fit-content;
