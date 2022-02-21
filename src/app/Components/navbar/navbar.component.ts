@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  searchVisible:boolean = false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
   showSearch() {
-    console.log("Focused")
+    this.searchVisible = !this.searchVisible;    
   }
 }

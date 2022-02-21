@@ -9,6 +9,47 @@
 
 .search-icon {
     color: rgb(199, 194, 194);
-    margin-right: 2rem;
     cursor: pointer;
+    margin: 0.5rem 0.3rem 0.5rem 0;
+    font-weight: 600;
 }
+
+.search-section {
+    margin-right: 2rem;
+    animation-duration: 2s;
+    animation-name: showSearch;
+}
+
+.search-input {
+    background-color: inherit;
+    border: none;
+    color:rgb(199, 194, 194);
+    outline: none;
+    width: 14rem;
+}
+
+@keyframes showSearch {
+    25% {
+        width: 10rem;
+    }
+    50% {
+        width: 15rem;
+    }
+    100% {
+        width: fit-content;
+    }
+}
+/* 
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+user-select: none;
+color: inherit;
+font: inherit;
+margin: 0;
+overflow: visible;
+text-transform: none;
+-webkit-appearance: button;
+display: inline-block;
+cursor: pointer;
+border: none;
+background: 0 0; */
