@@ -21,7 +21,7 @@
         </ul>
       </div>
     </div>
-    <div class="search-section" (click)="showSearch()" *ngIf="!searchVisible; else withSearch">
+    <div class={{onlySearchDivClassName}} (click)="showSearch()" *ngIf="!searchVisible; else withSearch">
       <mat-icon (click)="showSearch()" class="search-icon" color="warn">search</mat-icon>
     </div>
     <ng-template #withSearch>
