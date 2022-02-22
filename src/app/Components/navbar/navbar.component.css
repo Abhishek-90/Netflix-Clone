@@ -20,7 +20,8 @@
 
 .with-input-search {
     border-color: rgb(253, 248, 241);
-    border-style: solid;
+    border-style:solid; 
+    border-width: 0.07rem;
     margin-right: 2rem;
     animation-name: showSearch;
     animation-duration: 0.2s;
